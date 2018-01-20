@@ -18,6 +18,9 @@ Include `jquery.nok.min.js` from `dist` folder.
 ```
 Thats all. Ready to use.
 
+npm?
+`npm install jquery.nok`
+
 ## Fire a nok
 ```javascript
 $.nok({message: "Knock Knock, anyone home?"});
@@ -42,4 +45,4 @@ $.nok({
 - Values included under `Options` are defaults. Change those as required.
 - If message is blank, nok will not knock (appear).
 - Pass a second value in number only else the nok will be sticky.
-- Click on a sticky nok to dissmiss. Simple as that.
+- Click on a sticky nok to dismiss. Simple as that.

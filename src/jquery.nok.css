@@ -1,0 +1,40 @@
+/*
+ * JQuery nok : stylesheet
+ * http://git.eff.one
+ *
+ * Copyright (c) 2018 effone
+ *
+ * Licensed same as jquery - MIT License
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ * version: 0.1
+ * Date: 2018-01-20
+ */
+
+ #nok{
+    position:fixed;
+    z-index:999;
+    top:10px;
+    right:0
+}
+#nok .nok{
+    display:block;
+    position:relative;
+    overflow:hidden;
+    margin-top:10px;
+    margin-right:10px;
+    padding:20px;
+    width:240px;
+    border-radius:2px;
+    color:white;
+    right:-300px
+}
+#nok .nok_info{
+    background:#3c3b3b
+}
+#nok .nok_success{
+    background:#68C300
+}
+#nok .nok_error{
+    background:#c33c3c
+}

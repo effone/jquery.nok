@@ -1,0 +1,27 @@
+{
+  "name": "jquery.nok",
+  "version": "1.0.0",
+  "description": "Yet another full-fledged jQuery notification plugin with bare minimum code",
+  "main": "./dist/jquery.nok.min.js",
+  "ecosystem":"jquery",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eff-one/jquery.nok.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "notification",
+    "bare",
+    "small",
+    "tiny"
+  ],
+  "author": "effone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eff-one/jquery.nok/issues"
+  },
+  "homepage": "https://github.com/eff-one/jquery.nok#readme"
+}

@@ -7,7 +7,7 @@
  * Licensed same as jquery - MIT License
  * http://www.opensource.org/licenses/mit-license.php
  *
- * version: 0.1
+ * version: 1.0.0
  * Date: 2018-01-20
  */
 

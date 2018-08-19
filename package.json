@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eff-one/jquery.nok.git"
+    "url": "git+https://github.com/effone/jquery.nok.git"
   },
   "keywords": [
     "jquery-plugin",
@@ -21,7 +21,7 @@
   "author": "effone",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eff-one/jquery.nok/issues"
+    "url": "https://github.com/effone/jquery.nok/issues"
   },
-  "homepage": "https://github.com/eff-one/jquery.nok#readme"
+  "homepage": "https://github.com/effone/jquery.nok#readme"
 }

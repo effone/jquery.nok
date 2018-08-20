@@ -1,6 +1,6 @@
 {
   "name": "jquery.nok",
-  "version": "1.2.0",
+  "version": "1.0.1",
   "description": "Yet another full-fledged jQuery notification plugin with bare minimum code",
   "main": "./dist/jquery.nok.min.js",
   "ecosystem": "jquery",

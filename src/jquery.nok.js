@@ -15,10 +15,14 @@
         var defaults = {
             message: '',    // The message to display
             type: 'info',   // Type of message : info / error / success
-            sticky: false,  // Stay or hide after sometimes, bool
-            stay: 4         // Seconds the message stays (if not sticky)
+//          sticky: false,  // Stay or hide after sometimes, bool < DEPRECATED since 1.1.0, use stay: 0 to make a sticky
+            stay: 4         // Seconds the message stays (since v.1.1.0 set this value to 0 to make sticky)
         };
         options = $.extend(defaults, options);
+        // Backward compatibility
+        if (options.sticky) {
+            options.stay = 0;
+        }
         var target = 'nok'; // Out of options as it is related to static id / class names in css file
         // Create message block only if there is message
         if ($.trim(options.message)) { // $.trim() for ie8 legacy support, can be used as options.message.trim()
@@ -31,7 +35,7 @@
             $(msg).animate({
                 "right": "10px"
             }, "fast");
-            if (!options.sticky && $.isNumeric(options.stay)) {
+            if ($.isNumeric(options.stay) && options.stay > 0) {
                 setInterval(function () {
                     wipe(msg);
                 }, options.stay * 1000);

@@ -47,6 +47,9 @@ $.nok({
 - Pass a second value in number only else the nok will be sticky.
 - Click on a sticky nok to dismiss. Simple as that.
 
+
+![badge](https://img.shields.io/npm/dt/jquery.nok?label=NPM%20Downloads&style=for-the-badge)
+
 ## Version History:
 1.1.0 : <2018.08.20>
 - Deprecate option `sticky`, replaced by `{stay: 0}`
